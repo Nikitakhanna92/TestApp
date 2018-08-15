@@ -1,0 +1,56 @@
+
+
+.App-logo {
+
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+h1{
+  text-align:center;
+}
+
+img{
+display: block;
+margin:0 auto;
+}
+
+.commentButton{
+  margin:20px;
+ 
+}
+.card{
+  margin-bottom:8px;
+}
+.form{
+  margin:15px;
+}
+.card-head{
+  height: 48px;
+  padding: 12px;
+  border-bottom: 1px solid #80808045;
+  background-color:#f5f5dc;
+}
+.hidden{
+  display: none !important;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
