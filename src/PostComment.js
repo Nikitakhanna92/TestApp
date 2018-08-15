@@ -35,6 +35,14 @@ class PostComment extends Component {
     }
 
     viewForm(data) {
+        if(data==""){
+            this.setState({
+                displayButton: '',
+                formDisplay: 'hidden',
+                contentDisplay: 'hidden',
+            })
+            return;
+        }
         if (data) {
             this.setState({
                 formValues: data

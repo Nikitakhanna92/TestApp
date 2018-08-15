@@ -46,6 +46,10 @@ margin:0 auto;
   font-size: 1.5em;
 }
 
+.cancelButton{
+  margin:7px;
+}
+
 .App-intro {
   font-size: large;
 }
