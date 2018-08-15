@@ -45,7 +45,9 @@ margin:0 auto;
 .App-title {
   font-size: 1.5em;
 }
-
+.alert{
+  margin:17px;
+}
 .cancelButton{
   margin:7px;
 }
